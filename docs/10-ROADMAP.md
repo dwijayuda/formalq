@@ -31,3 +31,5 @@ The [G0 research review](13-RESEARCH-REVIEW.md) and [decision register](11-DECIS
 The [G1 report](16-ACQUISITION-REPORT.md) records acquisition, checksums and structural checks, plus the source and reviewer qualifications still needed for G1 exit. G2–G8 remain pending. The [verification specification](15-VERIFICATION-SPEC.md) contains hand-worked cases for future Lean replay.
 
 A [corpus-free propositional experiment](17-SYNTHETIC-RESULT.md) can be reviewed and replayed while the sources are under review. It uses invented formulas, with its own evidence requirements for the experimental result. It provides input to G3 and carries no acceptance of the production calculus, source artifacts, or interpretations.
+
+The [sorted first-order experiment](18-SORTED-RESULT.md) adds checked binder substitution, quantified deduction and finite-model certification. Its successful replay supplies evidence for the proposed G3 contracts. G3 still requires a production design decision, exact binding to serialized inputs and a clean qualification run. The [G1 review items](16-ACQUISITION-REPORT.md#gate-disposition) remain prerequisites for a real-text pilot.

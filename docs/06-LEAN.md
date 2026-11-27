@@ -1,5 +1,5 @@
 # 06 — Lean 4 architecture
-Status: production G3 architecture remains planned. The [corpus-free propositional experiment](17-SYNTHETIC-RESULT.md) has a separate Lean 4.35.0 pin and checked proofs. Production toolchain and library selection remain open.
+Status: production G3 architecture remains planned. The [propositional experiment](17-SYNTHETIC-RESULT.md) and the [sorted first-order experiment](18-SORTED-RESULT.md) have separately replayable Lean 4.35.0 proofs. Production toolchain selection, the library bridge and artifact binding remain open.
 
 ## Proposed modules
     FormalQ/
