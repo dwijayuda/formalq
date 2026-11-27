@@ -1,0 +1,54 @@
+{
+  "annotation_positions": {
+    "masaq_corpus_columns": 19,
+    "masaq_cross_format_rows": 157676,
+    "masaq_distinct_ids": 77797,
+    "masaq_nonempty_role_cells": 110886,
+    "masaq_repeated_segment_keys": 422,
+    "masaq_segment_keys": 157254,
+    "masaq_sqlite_role_lookup_distinct_tags": 73,
+    "masaq_sqlite_role_lookup_rows": 73,
+    "masaq_word_keys": 77411,
+    "qac_empty_first_person_suffix_forms": 208,
+    "qac_rows": 128219,
+    "qac_word_keys": 77429,
+    "shared_position_keys": 127700,
+    "shared_word_keys": 77410,
+    "verses_with_different_word_key_counts": 19
+  },
+  "artifact_count": 20,
+  "kfgqpc_zip_member_sha256": {
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.csv": "7e259a10b02be2ab905d0a62ffa28f62a605cad2be9428323c09bd5a57181c75",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.html": "3a24b205f53ccc8ed8402b02b172fba68630badcec896529c6f2af826ff22365",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.json": "d2960b3217962e7e4252abdcece67bea3d6b48271e4cd3af45bbbb2dd5c872ca",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.sql": "181d1a5c7451ccd34b4b363ab4681776bda5ba2e61175a11f2b3752c056a597d",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.txt": "6d915942d5ff466c92747987335375408d4e60f3ca079516dffa7ccf2f8f5e3a",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.xlsx": "ed3ebc43f15e325aa7035fe1c78269f46ae57019c0f180c30fa8f6100656474e",
+    "UthmanicHafs_v2-0 data/hafsData_v2-0.xml": "c72f2ee0b2ba06fddf6b7da4b209a523cffe970208be95e4ba715d5fe77436b4",
+    "UthmanicHafs_v2-0 data/read.me": "d334f9ad7c70c3a95778509ba7b705b25bcc7a76fea51af135559b93ee60cdb8",
+    "UthmanicHafs_v2-0 font/uthmanic_hafs_v2-0.docx": "68c1aabff9a7b0b60cd66c07e218faf3b94815fda5d30b329edf1281a6d9fa58",
+    "UthmanicHafs_v2-0 font/uthmanic_hafs_v2-0.pdf": "c0d57c9f193e509272d17b9c5bbd6d6ca8077de15e1de6f775d8c7aca64d6406",
+    "UthmanicHafs_v2-0 font/uthmanic_hafs_v20.ttf": "d560bbbc7a90a4f4d416d206a5ac48bd8a1ad00273d64d232f16ca54941bd041"
+  },
+  "simple_comparison": {
+    "exact_after_display_boundary_exclusion": 20,
+    "exact_matches": 1,
+    "kfgqpc_rows_with_nbsp": 0,
+    "kfgqpc_rows_with_private_use": 0,
+    "matching_verse_keys": 6236,
+    "nfc_after_display_boundary_exclusion": 20,
+    "nfc_matches": 1
+  },
+  "surahs": 114,
+  "unicode_version": "15.0.0",
+  "uthmani_comparison": {
+    "exact_after_display_boundary_exclusion": 64,
+    "exact_matches": 0,
+    "kfgqpc_rows_with_nbsp": 6235,
+    "kfgqpc_rows_with_private_use": 0,
+    "matching_verse_keys": 6236,
+    "nfc_after_display_boundary_exclusion": 64,
+    "nfc_matches": 0
+  },
+  "verses": 6236
+}
