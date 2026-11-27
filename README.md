@@ -2,7 +2,7 @@
 
 A research framework for **traceable formal representation of Quranic propositions and evaluation of hadith claims relative to those representations**.
 
-Status: **v0.1 research draft** (2026-11-27). Initial corpus artifacts have been acquired locally and checked structurally. Source qualification remains open. Lean qualification and interpretation review follow the roadmap gates.
+Status: **v0.1 research draft** (2026-11-27). Lean has checked the first synthetic propositional result. Initial corpus artifacts have been acquired locally and checked structurally. Source qualification, sorted logic and interpretation review remain under the roadmap gates.
 
 ## Start here
 
@@ -25,6 +25,7 @@ Status: **v0.1 research draft** (2026-11-27). Initial corpus artifacts have been
 | [Edition and qirāʾāt contract](docs/14-READINGS.md) | Transmission attribution, counting and alignment |
 | [Verification specification](docs/15-VERIFICATION-SPEC.md) | Formal fragment, evidence and hand-worked controls |
 | [Acquisition and validation report](docs/16-ACQUISITION-REPORT.md) | Provenance, checksums, discrepancies and local replay |
+| [First Lean result](docs/17-SYNTHETIC-RESULT.md) | Checked derivations, model search, classification and replay |
 | [Changelog](CHANGELOG.md) | Research and design changes |
 
 Proof certificates establish consequences of explicitly named, human-selected premises. Assessing the fidelity of an interpretation requires separate scholarly evidence. Hadith comparisons report compatibility with a specified profile. Historical authenticity requires separate transmission and textual evidence.

@@ -1,5 +1,5 @@
 # 06 — Lean 4 architecture
-Status: planned. G3 starts after the required upstream gates. No toolchain or library has been selected and no project proof has been compiled.
+Status: production G3 architecture remains planned. The [corpus-free propositional experiment](17-SYNTHETIC-RESULT.md) has a separate Lean 4.35.0 pin and checked proofs. Production toolchain and library selection remain open.
 
 ## Proposed modules
     FormalQ/
