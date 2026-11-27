@@ -1,5 +1,5 @@
 # 02 — Source inventory and acquisition plan
-Status: source discovery and acquisition planning, 2026-11-27. The public records below provide release and terms evidence. Corpus files, local hashes, structural validation and per-artifact permission decisions are pending G1.
+Status: G1 local acquisition and structural replay recorded in the [acquisition report](16-ACQUISITION-REPORT.md). The inventory below distinguishes publisher routes and candidate sources. The [manifest](../data/manifests/g1-20261127.json) gives the exact files, mirror status, terms evidence and hashes from the run.
 
 | ID | Source / entry point | Required artifact | Priority / status |
 |---|---|---|---|
