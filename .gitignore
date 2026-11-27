@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 /experiments/propositional/.lake/
+/experiments/sorted-first-order/.lake/
