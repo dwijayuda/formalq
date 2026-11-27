@@ -47,6 +47,26 @@ def verify_files(root, manifest):
     return files
 
 
+def verify_external_inventory(files, manifest):
+    records = {record["id"]: record for record in manifest["artifacts"]}
+    inventory = json.loads(files["mas-inventory"].read_bytes())
+    expected_names = {"MASAQ.csv", "MASAQ.tsv", "MASAQ.json", "MASAQ.db"}
+    require(len(inventory) == len(expected_names), "MASAQ: incomplete repository inventory")
+    require({item["filename"] for item in inventory} == expected_names, "MASAQ: unexpected inventory filenames")
+    for item in inventory:
+        record = records["MAS-" + item["filename"]]
+        details = item["content_details"]
+        require(record["bytes"] == details["size"], "MASAQ: manifest length differs from repository")
+        require(record["sha256"] == details["sha256_hash"], "MASAQ: manifest digest differs from repository")
+        require(record["requested_url"] == details["download_url"], "MASAQ: manifest route differs from repository")
+
+    mirror = json.loads(files["K-H-manifest"].read_bytes())["sources"]["hafs"]["layout"]
+    record = records["K-H"]
+    require(mirror["package"] == Path(record["file"]).name, "K-H: mirror package name differs")
+    require(mirror["sha256"] == record["sha256"], "K-H: digest differs from mirror manifest")
+    require(mirror["origin"]["url"] == record["reported_publisher_url"], "K-H: mirror's publisher route differs")
+
+
 def read_metadata(file):
     document = file.read_bytes().decode("utf-8")
     require(not re.search(r"<!\s*(?:DOCTYPE|ENTITY)\b", document, re.I), "T-M: XML declarations forbidden")
@@ -224,6 +244,11 @@ def annotation_summary(qac, empty_pronoun_forms, masaq, masaq_ids, masaq_role_ce
     mas_words = {key[:3] for key in masaq}
     qac_per_verse = Counter(key[:2] for key in qac_words)
     mas_per_verse = Counter(key[:2] for key in mas_words)
+    differences = [
+        {"surah": key[0], "ayah": key[1], "qac": qac_per_verse[key], "masaq": mas_per_verse[key]}
+        for key in sorted(qac_per_verse.keys() | mas_per_verse.keys())
+        if qac_per_verse[key] != mas_per_verse[key]
+    ]
     return {
         "qac_rows": len(qac),
         "qac_word_keys": len(qac_words),
@@ -239,9 +264,8 @@ def annotation_summary(qac, empty_pronoun_forms, masaq, masaq_ids, masaq_role_ce
         "masaq_repeated_segment_keys": sum(count > 1 for count in masaq.values()),
         "shared_position_keys": len(set(qac).intersection(masaq)),
         "shared_word_keys": len(qac_words & mas_words),
-        "verses_with_different_word_key_counts": sum(
-            qac_per_verse[key] != mas_per_verse[key] for key in qac_per_verse.keys() | mas_per_verse.keys()
-        ),
+        "verses_with_different_word_key_counts": len(differences),
+        "word_key_count_differences": differences,
     }
 
 
@@ -252,6 +276,7 @@ def main():
     arguments = cli.parse_args()
     manifest = json.loads(arguments.manifest.read_text(encoding="utf-8"))
     files = verify_files(arguments.source_dir.resolve(), manifest)
+    verify_external_inventory(files, manifest)
     keys = read_metadata(files["T-M"])
     uthmani = read_tanzil(files["T-U"], keys, "Uthmani")
     simple = read_tanzil(files["T-S"], keys, "Simple")

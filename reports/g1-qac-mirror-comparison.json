@@ -1,0 +1,20 @@
+[
+  {
+    "requested_url": "https://raw.githubusercontent.com/omer-iqbal/islamitexts-corpus/ab9378e3372ddf65b29301e5df33d81da6888bb6/quranic-corpus-morphology-0.4.txt",
+    "resolved_url": "https://raw.githubusercontent.com/omer-iqbal/islamitexts-corpus/ab9378e3372ddf65b29301e5df33d81da6888bb6/quranic-corpus-morphology-0.4.txt",
+    "retrieved_at_utc": "2026-11-27T12:00:37.656Z",
+    "bytes": 6181227,
+    "sha256": "910b721a8f04f4334ac5d4c62b19e858f5d720c525bb975f2e750ea2c6bb532d",
+    "matches_local_bytes": false,
+    "matches_after_crlf_to_lf": true
+  },
+  {
+    "requested_url": "https://raw.githubusercontent.com/cltk/arabic_morphology_quranic-corpus/5b6ba1eab0e23673a6293812b105e0399011ec9a/quranic-corpus-morphology-0.4.txt",
+    "resolved_url": "https://raw.githubusercontent.com/cltk/arabic_morphology_quranic-corpus/5b6ba1eab0e23673a6293812b105e0399011ec9a/quranic-corpus-morphology-0.4.txt",
+    "retrieved_at_utc": "2026-11-27T12:00:38.285Z",
+    "bytes": 6309503,
+    "sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+    "matches_local_bytes": true,
+    "matches_after_crlf_to_lf": true
+  }
+]
