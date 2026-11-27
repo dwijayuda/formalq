@@ -1,5 +1,31 @@
 # FormalQ
 
-A documentation-first research project for traceable formalization of Quranic propositions and conditional evaluation of hadith claims.
+A research framework for **traceable formal representation of Quranic propositions and evaluation of hadith claims relative to those representations**.
 
-**Status:** research design; no verified formalization, data ingestion, or religious rulings yet. The Arabic source, interpretive claims, and mathematical consequences are distinct. See the design documents as they are added.
+Status: **v0.1 design draft** (2026-11-27). No dataset has been ingested, no verse interpretation ratified, no Lean proof compiled, and no hadith authenticity judgment issued.
+
+## Start here
+
+| Document | Purpose |
+|---|---|
+| [Charter](docs/00-CHARTER.md) | Scope, aims, boundaries |
+| [Research methodology](docs/01-METHODOLOGY.md) | Evidence, epistemology, interpretive discipline |
+| [Sources and acquisition](docs/02-SOURCES.md) | Dataset inventory and licensing gates |
+| [Data architecture](docs/03-DATA.md) | Identifiers, provenance, normalization, schemas |
+| [Language and semantics](docs/04-SEMANTICS.md) | Formal representation and interpretation |
+| [Logic and verification](docs/05-LOGIC.md) | Proof obligations and model theory |
+| [Lean architecture](docs/06-LEAN.md) | Module boundaries and trusted base |
+| [Hadith evaluation](docs/07-HADITH.md) | Conditional results, historical authenticity separation |
+| [Pilot and benchmarks](docs/08-PILOT.md) | Representative passages and evaluation |
+| [Quality and governance](docs/09-GOVERNANCE.md) | Review, releases, testing, security |
+| [Roadmap](docs/10-ROADMAP.md) | Milestones and acceptance gates |
+| [Decisions and open problems](docs/11-DECISIONS.md) | Provisional decisions, alternatives and unresolved questions |
+| [Research bibliography](docs/12-BIBLIOGRAPHY.md) | Primary and secondary research leads |
+
+The authority attributed to revelation does not automatically transfer to any translation, interpretation, or formal model. Proof certificates establish consequences of explicitly named premises, not the infallibility of those premises.
+
+## Workflow
+
+Design review → acquisition and validation → semantic pilot → checked inference → expansion → hadith comparison. Keep third-party data outside Git until redistribution permission is confirmed. Do not treat this project as a fatwa engine or a substitute for qualified scholarship.
+
+Primary implementation target: Lean 4; auxiliary data tooling: Python (provisional). English technical documentation; original Arabic preserved; Indonesian annotations supported.
