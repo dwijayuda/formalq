@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scope": "Nine user-supplied artifacts inventoried 2026-11-28 Asia/Jakarta; publisher release verification pending unless stated. SHA-256 hashes of original uploaded bytes. Git blob SHA-1 values computed locally.",
+  "validation": {
+    "verse_records_per_text": 6236,
+    "surahs": 114,
+    "duplicate_ids": 0,
+    "missing_ids": 0,
+    "extra_ids": 0,
+    "reference": "quran-data.xml",
+    "zip_crc": "all three outer ZIP archives passed; nested RAR not validated",
+    "limitations": "Identifier alignment is not textual authenticity, semantic alignment, or independent verification."
+  },
+  "artifacts": [
+    {
+      "filename": "quran-uthmani.txt",
+      "bytes": 1396087,
+      "sha256": "6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f",
+      "source_url": "https://tanzil.net/download/",
+      "terms": "Tanzil 1.1; CC BY 3.0 notice plus verbatim-only terms",
+      "path": "data/raw/tanzil/quran-uthmani.txt",
+      "git_blob_sha1": "9813920ae5afce9e50d2ac44562457e29bb4bfca",
+      "status": "published"
+    },
+    {
+      "filename": "quran-simple.txt",
+      "bytes": 1353105,
+      "sha256": "c8c2ea9e004cf3f4b7afc5ba00de859556f4ed09bd9cf5d1bc79e877406ef678",
+      "source_url": "https://tanzil.net/download/",
+      "terms": "Tanzil 1.1; CC BY 3.0 notice plus verbatim-only terms",
+      "path": "data/raw/tanzil/quran-simple.txt",
+      "git_blob_sha1": "b7b0b3db111cf183d1439ff76dc38d61d743592d",
+      "status": "published"
+    },
+    {
+      "filename": "quran-data.js",
+      "bytes": 25096,
+      "sha256": "9e9930c592aaa34b5c7a79ff4e99ffdc782263a266090bfe2c49e4ed4bac4ca4",
+      "source_url": "https://tanzil.net/docs/quran_metadata",
+      "terms": "Tanzil metadata 1.0; CC BY 3.0",
+      "path": "data/raw/tanzil/quran-data.js",
+      "git_blob_sha1": "2595fd125ceda307e96f2c9b0657eb25a4841d3b",
+      "status": "published"
+    },
+    {
+      "filename": "quran-data.xml",
+      "bytes": 77234,
+      "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+      "source_url": "https://tanzil.net/docs/quran_metadata",
+      "terms": "Tanzil metadata 1.0; CC BY",
+      "path": "data/raw/tanzil/quran-data.xml",
+      "git_blob_sha1": "ef53c5df61d52b565e5a952316209971e67bb191",
+      "status": "published"
+    },
+    {
+      "filename": "quran-hafs-rasm_uthmani.txt",
+      "bytes": 1376875,
+      "sha256": "0a48eee4e40f0442d2a031f678b792c5745884d5d033f7f5a34e6cba17955ab7",
+      "source_url": "https://text.quran.ws/download?edition=hafs&format=txt",
+      "terms": "Quran.ws; KFGQPC UthmanicHafs v3.0; underlying text redistribution terms need review",
+      "path": "data/local/kfgqpc/quran-hafs-rasm_uthmani.txt",
+      "git_blob_sha1": "9adda11411e1f1a5293ba4adfc034f23383f8269",
+      "status": "local only; rights review"
+    },
+    {
+      "filename": "en.pickthall.txt",
+      "bytes": 864918,
+      "sha256": "4aabbfa9d96796f5a6b0217d2c39dce1a3084f772bf6f2650e37082a774e3cc7",
+      "source_url": "https://tanzil.net/trans/",
+      "terms": "Pickthall; Tanzil September 4, 2010 update; download page non-commercial terms",
+      "path": "data/local/translations/en.pickthall.txt",
+      "git_blob_sha1": "ac39a0d7938e97f26a10bf8481b7e6407c4455a6",
+      "status": "local only; rights review"
+    },
+    {
+      "filename": "quranic-corpus-morphology-0.4.zip",
+      "bytes": 1028754,
+      "sha256": "fda26f87cc58b42fc992a3ad666a562805b636f34bcecb46326d048337ca7999",
+      "source_url": "https://corpus.quran.com/download/",
+      "terms": "Kais Dukes 2011; GNU GPL notice with verbatim conditions; preserves embedded Tanzil notice",
+      "path": "data/local/qac/quranic-corpus-morphology-0.4.zip",
+      "git_blob_sha1": "a7ac8f1d47ee72280c019ed4dea9381e663344a8",
+      "status": "local only; binary transfer unavailable"
+    },
+    {
+      "filename": "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset.zip",
+      "bytes": 25011207,
+      "sha256": "457892870fd8d9f26ffeb850ff3846c53bc969bd377f60a2ad6e694eb46b4393",
+      "source_url": "https://data.mendeley.com/datasets/9yvrzxktmr/6",
+      "terms": "Candidate MASAQ v6 (DOI 10.17632/9yvrzxktmr.6); CC BY-NC 3.0 on source page; exact release match pending",
+      "path": "data/local/masaq/MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset.zip",
+      "git_blob_sha1": "b2efdedce60345f54d1cd86004d2211a75560626",
+      "status": "local only; binary transfer and rights review"
+    },
+    {
+      "filename": "Quranic.zip",
+      "bytes": 3426518,
+      "sha256": "e5ce3e94aeb83e7e9331b2dad57f2d890ff05bcd5827b527095b583998d47c79",
+      "source_url": "https://data.mendeley.com/datasets/rk96pn66m4/1",
+      "terms": "Candidate extended Quranic treebank v1; archive contains nested RAR, exact edition and terms pending",
+      "path": "data/local/treebank/Quranic.zip",
+      "git_blob_sha1": "9b1a969a2dd6df390b55ab6af1e0319be1429310",
+      "status": "local only; binary transfer and rights review"
+    }
+  ]
+}
