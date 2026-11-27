@@ -1,0 +1,11 @@
+name = "formalq_propositional_experiment"
+defaultTargets = ["FormalQExperiment", "FormalQExperimentTests"]
+
+[leanOptions]
+warningAsError = true
+
+[[lean_lib]]
+name = "FormalQExperiment"
+
+[[lean_lib]]
+name = "FormalQExperimentTests"
