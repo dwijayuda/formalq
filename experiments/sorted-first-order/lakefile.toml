@@ -1,0 +1,11 @@
+name = "formalq_sorted_experiment"
+defaultTargets = ["FormalQSorted", "FormalQSortedTests"]
+
+[leanOptions]
+warningAsError = true
+
+[[lean_lib]]
+name = "FormalQSorted"
+
+[[lean_lib]]
+name = "FormalQSortedTests"
