@@ -28,7 +28,7 @@ Al-Raghib al-Isfahani, al-Mufradat; Ibn Manzur, Lisan al-Arab; Ibn Faris, Maqayi
 - Theorem Proving in Lean 4: https://lean-lang.org/theorem_proving_in_lean4/
 - Mathlib: https://github.com/leanprover-community/mathlib4
 - Foundation first-order logic development. [Project](https://github.com/FormalizedFormalLogic/Foundation), [formalization guide](https://formalizedformallogic.org/Book/index.html)
-- Blanchette, Böhme, Popescu and Smallbone, *Sound and Complete Sort Encodings for First-Order Logic*. [Archive of Formal Proofs](https://isa-afp.org/entries/Sort_Encodings.html)
+- Blanchette and Popescu, *Sound and Complete Sort Encodings for First-Order Logic*. [Archive of Formal Proofs](https://isa-afp.org/entries/Sort_Encodings.html)
 - Kamp, *A Theory of Truth and Semantic Representation*. [Reprint](https://doi.org/10.1002/9780470758335.ch8)
 - Chisholm (1963), *Contrary-to-Duty Imperatives and Deontic Logic*. [Analysis](https://doi.org/10.1093/analys/24.2.33)
 - Provenance entities, activities and derivations. [W3C PROV-DM](https://www.w3.org/TR/prov-dm/)

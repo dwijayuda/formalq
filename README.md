@@ -2,7 +2,7 @@
 
 A research framework for **traceable formal representation of Quranic propositions and evaluation of hadith claims relative to those representations**.
 
-Status: **v0.1 design draft** (2026-11-27). No dataset has been ingested, no verse interpretation ratified, no Lean proof compiled, and no hadith authenticity judgment issued.
+Status: **v0.1 G0 design review** (2026-11-27). Maintainer acceptance is pending. This draft documents source discovery, proposed semantics and hand-worked mathematical controls. Corpus ingestion, Lean qualification and interpretation review await their roadmap gates.
 
 ## Start here
 
@@ -21,11 +21,15 @@ Status: **v0.1 design draft** (2026-11-27). No dataset has been ingested, no ver
 | [Roadmap](docs/10-ROADMAP.md) | Milestones and acceptance gates |
 | [Decisions and open problems](docs/11-DECISIONS.md) | Provisional decisions, alternatives and unresolved questions |
 | [Research bibliography](docs/12-BIBLIOGRAPHY.md) | Primary and secondary research leads |
+| [G0 research review](docs/13-RESEARCH-REVIEW.md) | Prior work, findings and design implications |
+| [Edition and qirāʾāt contract](docs/14-READINGS.md) | Transmission attribution, counting and alignment |
+| [Verification specification](docs/15-VERIFICATION-SPEC.md) | Formal fragment, evidence and hand-worked controls |
+| [Changelog](CHANGELOG.md) | Research and design changes |
 
-The authority attributed to revelation does not automatically transfer to any translation, interpretation, or formal model. Proof certificates establish consequences of explicitly named premises, not the infallibility of those premises.
+Proof certificates establish consequences of explicitly named, human-selected premises. Assessing the fidelity of an interpretation requires separate scholarly evidence. Hadith comparisons report compatibility with a specified profile. Historical authenticity requires separate transmission and textual evidence.
 
 ## Workflow
 
-Design review → acquisition and validation → semantic pilot → checked inference → expansion → hadith comparison. Keep third-party data outside Git until redistribution permission is confirmed. Do not treat this project as a fatwa engine or a substitute for qualified scholarship.
+Follow the [roadmap gates](docs/10-ROADMAP.md) from design approval through acquisition, tooling, calculus qualification, pilot review and comparison. Keep third-party data outside Git until redistribution permission is confirmed. FormalQ is a research framework for use alongside qualified scholarship.
 
 Primary implementation target: Lean 4; auxiliary data tooling: Python (provisional). English technical documentation; original Arabic preserved; Indonesian annotations supported.

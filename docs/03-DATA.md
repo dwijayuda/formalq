@@ -21,7 +21,7 @@ Use zero-based, half-open byte ranges anchored to the exact artifact SHA-256 for
 | Proof | theory_hash, proposition_id, logic_id, toolchain, certificate, axiom_dependencies, result |
 | Comparison | hadith_claim_id, profile_id, context, theory_hash, query, result, evidence, coverage, limitations |
 
-All IDs resolve to existing records; validate referential integrity, schema version, valid ranges and vocabulary. Use explicit null for unavailable facts, never infer missing values. Status vocabulary: draft, machine-checked (syntax only), under-review, accepted-in-profile, disputed, superseded, rejected. Store review events separately.
+All IDs resolve to existing records. Validate referential integrity, schema version, ranges and vocabulary. Represent unavailable fields explicitly. Record structural validation, review disposition and lifecycle independently so a well-typed formula can also be disputed or superseded. Store review events separately and bind them to the reviewed revision and profile.
 
 Record each derivation as an activity with exact input revisions, tool revision, configuration, output hashes and any reviewed assertion or transform used. Use separate relations for byte derivation, bibliographic citation and substantive warrant. Derivation edges must have an acyclic ancestry; cross-references may remain cyclic. Pin a release inventory of input and output identities. Report differences by provenance layer and invalidate reachable dependent results when a referenced revision changes. [W3C PROV-DM](https://www.w3.org/TR/prov-dm/)
 

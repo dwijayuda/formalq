@@ -1,5 +1,5 @@
 # 10 — Implementation roadmap
-Status: phase 0 draft; no dates or completion claims.
+Status: G0 research and design update is ready for maintainer review. G0 acceptance and downstream evidence remain pending.
 
 | Gate | Work | Exit evidence |
 |---|---|---|
@@ -25,4 +25,7 @@ Status: phase 0 draft; no dates or completion claims.
 Restricted data access or license → document manual retrieval and do not redistribute. No qualified reviewers → remain draft. Semantic ambiguity → retain alternatives. Solver incompleteness → abstain. Toolchain incompatibility → pin compatible version. Expanding scope → gate extensions by pilot need. Do not claim completion of entire Quran simply from verse indexing.
 
 ## Current status
-G0 documents drafted, pending review. G1–G8 not started. No source hashes, tests or proof artifacts yet. Use issues/PRs for decisions and record milestone completion with evidence.
+
+The [G0 research review](13-RESEARCH-REVIEW.md) and [decision register](11-DECISIONS.md) identify proposals for acceptance. A G0 decision should name the reviewed commit, accepted proposals and unresolved issues, and identify who owns source and scholarly review. Decisions about P0 substitutions must carry their own rationale and validation consequences. Gate exit requires the evidence listed in the table.
+
+G1–G8 are pending. The [G1 plan](02-SOURCES.md) identifies acquisition routes, terms evidence and validation targets. The [verification specification](15-VERIFICATION-SPEC.md) contains hand-worked cases for later replay. Corpus hashes, parser and CI results, formal proofs, and interpretation reviews will be recorded at their corresponding gates.
