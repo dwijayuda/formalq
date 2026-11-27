@@ -14,6 +14,11 @@ All decisions are provisional, pending maintainer and expert review.
 | D09 | English docs + Arabic originals + Indonesian support | Avoid unnecessary translation authority |
 | D10 | No raw corpus in public Git until license clearance | Public download is not permission to redistribute |
 | D11 | No global axioms asserting interpretations | Conditional theories make assumptions auditable |
+| D12 | Separate recitational attribution, witness and printed numbering | A reading key that implies a counting system can misalign multiple editions. [Edition contract](14-READINGS.md) |
+| D13 | Separate raw range, decoded coordinates and reviewed alignment | Whole-verse strings are simpler and discard the trace needed for split spans and source-specific markup. [Data contracts](03-DATA.md) |
+| D14 | Use partial lowering from discourse and speech-act records | Universal lowering can promote quotes, commands and unresolved anaphora into assertions. [Semantics](04-SEMANTICS.md) |
+| D15 | Qualify entailment and refutation with base satisfiability evidence | A proof-only label can hide an inconsistent theory. Treat mutually impossible evidence as an integrity error. [Verification specification](15-VERIFICATION-SPEC.md) |
+| D16 | Compare library reuse, proved translation and minimal deep embedding | A standalone calculus incurs metatheory maintenance. A library embedding still needs review of semantics and certificate binding. [Lean qualification](06-LEAN.md) |
 
 ## Open problems
 O1: What counts as admissible interpretation, and who can approve it? Define criteria without falsely claiming consensus.
@@ -30,5 +35,9 @@ O11: What is novelty relative to Quran ontologies, Islamic legal reasoning and f
 O12: What constitutes useful partial formalization if some Quranic content resists propositional encoding?
 O13: How to handle revised claims and theory versioning across dependent outputs?
 O14: Which software license and contribution model does the maintainer prefer?
+O15: What source is an adequate fallback for the unavailable KFGQPC developer route, and which independence claims would that fallback permit?
+O16: What canonical serialization and compatibility theorem are needed for hashing and replay, including renamed binders, duplicated premises and migrations?
+O17: What review evidence is sufficient to establish that a proposed context bridge preserves the meaning of the specific claim?
+O18: How can local-only required data be revalidated independently under publisher terms? Which public artifacts can report meaningful diagnostics without redistributing protected contents?
 
 Maintain an issue per research problem once design is reviewed; record evidence and rationale for decisions. No novelty, completeness, consistency or correctness claim before appropriate evidence.

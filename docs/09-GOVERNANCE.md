@@ -7,6 +7,8 @@ Maintainer handles releases, Arabic reviewer assesses language, Islamic-studies 
 ## Review checklist
 Source exactness, stable IDs, correct speaker/act, context, alternatives, declared dependencies, formal typing, soundness, theory consistency evidence, limitations, license, and reproducibility. Document dissent and preserve earlier revisions. Review decisions must be attributable and versioned; no personal data beyond necessary public contributor details.
 
+For each gate, record the exact accepted commit and artifact revisions, decision and reviewer roles, and any exception with its rationale and impact. The decision record links required replay output or review evidence. Where source terms restrict public replay, document the lawful acquisition path and what a third party can independently check. Treat changes in the support for a source, bridge or interpretation as reasons to revisit related approvals.
+
 ## Tests and CI
 Schema validation and reference integrity; raw checksum verification if licensed data available; expected edition counts; Unicode and normalization tests; deterministic generation; Lean build and unit/regression tests; certificate/model verification; no sorry/admit in verified modules; axiom dependency report; profile firewall; coverage reports. Test known inconsistent and underdetermined theories. CI must fail on unsupported data or logic in a verified release. Pin tools, sandbox parsers, disallow untrusted code and archive traversal; avoid secrets in manifests or logs.
 

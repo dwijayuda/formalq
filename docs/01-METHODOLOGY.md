@@ -25,3 +25,11 @@ Distinguish quoted speech from authorial assertions (e.g. a speaker's claim insi
 
 ## Review protocol
 Independent Arabic-language and Islamic-studies reviews plus formal-methods review. Reviewer agreement is not proof of correct exegesis. Log conflicts, alternative parses, terminology choices, and scope. Use external scholars and document relevant methodological diversity. AI outputs remain draft annotations until checked against source evidence.
+
+## Admitting an interpretation into a profile
+
+Proposed for G0 review. A submission identifies the edition and segment ranges, gives its argument in ordinary language, and labels each premise by warrant. The Arabic reviewer records the parse, lexical sense and competing analyses. The Islamic-studies reviewer records the interpretive method, source locations, scope and any scholarly disagreement. The formal reviewer maps each claim and assumption to the exact formula and checks that the representation preserves the distinctions the other reviewers identified. The maintainer records the decision for a specific profile and revision, with the review events attached. Disputed alternatives can remain admissible in distinct profiles if their own warrants and scope are reviewed. A change of reviewer status or an evidentiary revision reopens the relevant admission decision.
+
+Keep three confidence questions separate. Source integrity concerns identity and fidelity of an artifact. Interpretive justification concerns whether a proposed reading follows a declared scholarly method. Formal entailment concerns all models of the stated theory. Attach evidence and open objections at the relevant step. A numerical confidence score cannot stand in for any of these judgments.
+
+For a Quran-relative evaluation, traverse evidence dependencies from every theory premise and any comparison bridge back to their cited sources. Record a documented match, an unresolved possible match, or reviewed independence from the target report and its relevant variant family. Treat incomplete source ancestry as unresolved where material. A contextual analysis that uses the report can remain available with its dependency disclosed. Compare the result after removing the dependency only with a separately reviewed theory and evidence key.
