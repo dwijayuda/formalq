@@ -6,7 +6,8 @@
 - Documented source-specific acquisition routes, provenance and license evidence, validation targets, and the distinction between recitational attribution, digital edition and printed numbering.
 - Specified the initial sorted assertion fragment, partial lowering, exact evidence binding, consistency-supported comparison outcomes and hand-worked controls.
 - Added a Lean library comparison plan, pilot review tasks and gate decision requirements.
-- Recorded G1 local corpus acquisition, SHA-256 provenance, discrepant source-format observations and reproducible structural checks. Source qualification, Lean proof replay and scholarly adjudication remain pending.
+- Recorded G1 local corpus acquisition, SHA-256 provenance, discrepant source-format observations and reproducible structural checks. Source qualification and scholarly adjudication remain pending.
+- Added a corpus-free Lean experiment with checked propositional inference, model witnesses, exhaustive verdict classification, an axiom audit and synthetic controls.
 
 ## v0.1 design baseline
 

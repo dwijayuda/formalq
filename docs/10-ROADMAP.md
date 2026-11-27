@@ -29,3 +29,5 @@ Restricted data access or license → document manual retrieval and do not redis
 The [G0 research review](13-RESEARCH-REVIEW.md) and [decision register](11-DECISIONS.md) identify proposals for acceptance. A G0 decision should name the reviewed commit, accepted proposals and unresolved issues, and identify who owns source and scholarly review. Decisions about P0 substitutions must carry their own rationale and validation consequences. Gate exit requires the evidence listed in the table.
 
 The [G1 report](16-ACQUISITION-REPORT.md) records acquisition, checksums and structural checks, plus the source and reviewer qualifications still needed for G1 exit. G2–G8 remain pending. The [verification specification](15-VERIFICATION-SPEC.md) contains hand-worked cases for future Lean replay.
+
+A [corpus-free propositional experiment](17-SYNTHETIC-RESULT.md) can be reviewed and replayed while the sources are under review. It uses invented formulas, with its own evidence requirements for the experimental result. It provides input to G3 and carries no acceptance of the production calculus, source artifacts, or interpretations.
